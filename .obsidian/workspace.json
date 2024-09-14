@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "71d430abb694e0d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "67e0f2b0eaba5596",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e96c190821225501",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3001816891fae67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project 1 - Familiarizing yourself with Git(hub).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3becf90bfc5c7fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project 2 - Interacting with Arduino.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b8f261d2feada8f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b78173076a216ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cebf63ae867b0a49",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a2ada4e883fc7e87",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0de3abc2adcc3852",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "143862710552c59b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8b31fde914dcfc3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0f615526c87f05b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Project 1 - Familiarizing yourself with Git(hub).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9955b1efd3499c55",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Project 1 - Familiarizing yourself with Git(hub).md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "74e670cea3e887f7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8bf4a4ce4499625a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Project 1 - Familiarizing yourself with Git(hub).md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c3001816891fae67",
+  "lastOpenFiles": [
+    "README.md",
+    "Project 1 - Familiarizing yourself with Git(hub).md",
+    "Project 2 - Interacting with Arduino.md",
+    "().md"
+  ]
+}

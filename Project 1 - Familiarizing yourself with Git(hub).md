@@ -44,6 +44,6 @@ Steps:
 	1. Tutorials
 		1. [W3schools.com](https://www.w3schools.com/git/default.asp)
 		2. [Learn Git Branching](https://learngitbranching.js.org/)
-	2. Youtube videos
+	2. YouTube videos
 		1. [How Git Works](https://www.youtube.com/watch?v=e9lnsKot_SQ)
 		2. [Git Merge vs Rebase](https://www.youtube.com/watch?v=0chZFIZLR_0)

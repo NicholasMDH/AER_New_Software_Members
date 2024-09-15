@@ -14,4 +14,19 @@ Steps:
 		1. The board shown in the picture is actually an Arduino Nano R3, not an ESP32 nano like we have, but the pinouts are the same for our use case here
 		2. The pin that you will be controlling to send the voltages will be D3
 4. Resources
-	2. (EMILY FILL THIS OUT)
+   
+   1. https://www.circuito.io/blog/arduino-code/
+      
+      a. This is a very good website to tell you the basic things you need to know about coding with Arduino.
+
+   2. https://docs.arduino.cc/built-in-examples/basics/BareMinimum/
+
+      b. This is from the Arduino website and it has very good tutorials on how to do some of the basic things you can do with your Arduino.
+
+   3. https://manual.eg.poly.edu/index.php/Arduino_Coding_Guide
+
+      c. This is a big index for many of the things you will be able to use in the Ardunio IDE which you will use when coding the things you want to do. 
+  
+   
+
+ 

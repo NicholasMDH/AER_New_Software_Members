@@ -8,24 +8,26 @@ Steps:
 	1. Then you should come up to me so I can add them to the github project
 4. Setting up environment
 	1. All members of the software team will be interacting with github through WSL or a unix-based command line (mac/linux)
-		1. For those running windows, follow [this](https://learn.microsoft.com/en-us/windows/wsl/install) tutorial to install wsl
-		2. Please just use the default installation steps, Ubuntu is very user-friendly and it will be easier if we are all working in the same environment
 	2. The following steps will be divided into Mac and Windows portions, respectively
 		1. Windows
-			1. Once you have wsl installed, create a “Project” folder in your windows filesystem (preferably in your C:\ or Documents folder)
-			2. Then, back in WSL create a [symbolic link](https://www.howtogeek.com/287014/how-to-create-and-use-symbolic-links-aka-symlinks-on-linux/) to that folder in your home directory
+			1. For those running windows, follow [this](https://learn.microsoft.com/en-us/windows/wsl/install) tutorial to install wsl
+				1. Please just use the default installation steps, Ubuntu is very user-friendly and it will be easier if we are all working in the same environment
+				2. Once WSL is installed, you will be asked to reboot your computer for it to finish installing. When you are rebooting, press F10, Enter, or whichever button puts you into the BIOS mode ([this](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-c5578302-6e43-4b4b-a449-8ced115f58e1) link might help) and make sure you enable Virtualization. 
+				3. Then, once you're back in windows, make sure to turn on the "Virtual Machine Platform" feature, as specified in the previous [link](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-c5578302-6e43-4b4b-a449-8ced115f58e1)
+			2. Once you have wsl installed, create a “Project” folder in your windows filesystem (preferably in your C:\\ or C:\\Documents\\ folder)
+			3. Then, back in WSL create a [symbolic link](https://www.howtogeek.com/287014/how-to-create-and-use-symbolic-links-aka-symlinks-on-linux/) to that folder in your home directory
 				1. hint 1: your C drive (displayed like "C:\\Stuff\\..." in windows) is displayed using linux notation in wsl ("/mnt/c/stuff/...")
 				2. hint 2: You want to symbolically link a folder in a windows filestructure (using linux notation, see hint 1), to a new folder in a linux filesystem in wsl
 				3. hint 3: your home directory in linux is shortened to "~" on the command line, but using `pwd` you can see that it is actually "/home/userName/"
 				4. hint 4: the final filepath in wsl will be "/home/userName/Project/"
-			3. Once you have created your symbolically linked folder, navigate to it, and clone the github repository inside of it
-		2. Mac
-			1. Create a Projects folder and clone the github repository inside of it
+		3. Mac
+			1. Create a "Project" folder in a directory that you have easy access to and won't forget about
 	3. Create & Link SSH Keys
 		1. If you have never created or used SSH Keys before, follow [this tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux) to create them
 		2. Once you've created your SSH keys, link them to your GitHub account as shown in [this tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=webui)
-	4. Test
+	5. Test
 		1. clone the github repo to your new project folder to make sure you ssh keys work (you will most likely be asked to set your git username and email address here, just make sure you use the same username and email address that you used for your github account)
+		2. Note: You will not be able to contribute to the repository (in your own branch I hope ;) ) until you accept my invitation to be added as a collaborator on github, you should see an email about it in the inbox of whichever email address you have associated with your github account
 5. Github Project
 	1. Each new member will create a new Pull Request with its own NEW branch, and it will refer to the existing "# New Member Project #1" issue
 		1. On repository website, navigate to "Pull Requests", and then select "New Pull Request"

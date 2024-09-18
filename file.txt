@@ -1,6 +1,6 @@
 Jacob Brubaker
 
-Computer Science
+Computer Science Major
 
 Personal Projects and coursework in Java, Python, and C++
 

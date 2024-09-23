@@ -29,7 +29,7 @@ Steps:
 		1. clone the github repo to your new project folder to make sure you ssh keys work (you will most likely be asked to set your git username and email address here, just make sure you use the same username and email address that you used for your github account)
 		2. Note: You will not be able to contribute to the repository (in your own branch I hope ;) ) until you accept my invitation to be added as a collaborator on github, you should see an email about it in the inbox of whichever email address you have associated with your github account
 5. Github Project
-	1. Each new member will create a new Pull Request with its own NEW branch, and it will refer to the existing "# New Member Project #1" issue
+	1. Each new member will create a new Pull Request with its own NEW branch, and it will refer to the existing "New Member Project #1" issue
 		1. On repository website, navigate to "Pull Requests", and then select "New Pull Request"
 		2. When creating your pull request, make sure that it targets the specified issue, and that you create your own branch for the PR
 			1. Please name your branch "firstName_lastName_PR"

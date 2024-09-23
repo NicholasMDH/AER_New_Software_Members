@@ -1,4 +1,4 @@
-Name: Kohki Kita
-Major: Computer Engineering
-Experience: Personal Projects (Full stack, simple Arduino)
-Project: CAN Communication or BMS
+Name: Kohki Kita <br>
+Major: Computer Engineering <br>
+Experience: Personal Projects (HTML/CSS, JS, C++) <br>
+Project: CAN Communication or BMS <br>

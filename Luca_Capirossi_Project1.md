@@ -1,0 +1,4 @@
+- **Name:** Luca Capirossi
+- **Major:** Computer Engineering 
+- **Coding Experience:** Mostly experience with microcontrollers using C language and Verilog, have also worked on websites using HTML, CSS and Python
+- **New Member Projects:** BMS Arduino Programming 

@@ -5,9 +5,10 @@ Steps:
 	2. Once in the IDE, select the "Boards Manager" icon on the left sidebar
 		1. Search for "Arduino ESP32 Boards" in the search bar, then install the package of the same name (again, just use the newest version)
 2. Create & edit your file
-	1. Back in WSL, navigate to your local repository, (make sure you're on the right branch) and use `touch` to create the file `firstName_lastName_Project2.ino` in the main folder of the repository
+	1. Back in WSL, navigate to your local repository, (make sure you're on the right branch) and create a new folder named `firstName_lastName_Project2`, then use `touch` to create the file `firstName_lastName_Project2.ino` in that new folder
+		1. This is because Arduino requires each .ino file to be inside of a parent folder with the same name
 	2. Then, back in the Arduino IDE, open that file and start editing it
-		3. Using the resources and wiring diagram below, write a script that will turn the LED on and off every second or so, the timing itself doesn't matter as long as the code turns the light on and off consistently
+		2. Using the resources and wiring diagram below, write a script that will turn the LED on and off every second or so, the timing itself doesn't matter as long as the code turns the light on and off consistently
 3. Wiring Diagram
 	1. ![[Wiring_diagram.png]]
 	2. To clarify:

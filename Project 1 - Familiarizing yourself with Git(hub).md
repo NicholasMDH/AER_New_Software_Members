@@ -28,7 +28,11 @@ Steps:
 	3. Create & Link SSH Keys
 		1. If you have never created or used SSH Keys before, follow [this tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent?platform=linux) to create them
 		2. Once you've created your SSH keys, link them to your GitHub account as shown in [this tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=webui)
-	5. Test
+		3. Notes
+			1. Your SSH keys should automatically be stored in your `~/.ssh/` folder
+			2. Github is asking you to add the contents of your public key file, make sure the output looks like the example on that page
+			3. Mac users, apparently there's an additional step you might have to complete where you have to edit your `~/.ssh/config` file to tell your ssh-agent to automatically load your ssh keys, be sure to do so
+	4. Test
 		1. clone the github repo to your new project folder to make sure you ssh keys work (you will most likely be asked to set your git username and email address here, just make sure you use the same username and email address that you used for your github account)
 			1. Note: Make sure you clone the repo using SSH, not HTTPS! SSH is the only way for you to authenticate using the keys you created a few steps before, and to be able to contribute to the repository
 		2. Note: You will not be able to contribute to the repository (in your own branch I hope ;) ) until you accept my invitation to be added as a collaborator on github, you should see an email about it in the inbox of whichever email address you have associated with your github account

@@ -1,4 +1,4 @@
-#define LED_PIN 3
+#define LED_PIN D3
 
 void setup() {
   pinMode(LED_PIN, OUTPUT)
